@@ -1,15 +1,12 @@
 <?php
     //Conexão com bando de dados
     function connection(){
-       // $servername = "sql107.epizy.com";
-       // $username   = "epiz_25649959";
-       // $password   = "yVu5xbKsLmA243L";
-       // $db         = "epiz_25649959_loja";
+      
 
-        $servername = "localhost";
-        $username   = "root";
-        $password   = "";
-        $db         = "loja";
+        $servername = "sql201.epizy.com";
+        $username   = "epiz_25729957";
+        $password   = "CIIDYVfBAq95";
+        $db         = "epiz_25729957_loja";
 
         try {
         $conn = new PDO("mysql:host=$servername;dbname=$db;charset=utf8", $username, $password);

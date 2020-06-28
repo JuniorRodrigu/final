@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Loja Construção</title>
+  <title>Locadora</title>
   <?php
     session_start();
     include "_includes/header.php";
